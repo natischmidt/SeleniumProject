@@ -8,12 +8,8 @@ public class GettingStarted {
     public void testGoogleSearch() throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
-        driver.get("http://www.duckduckgo.com/");
-        Thread.sleep(5000);  // Let the user actually see something!
-        WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys("ChromeDriver");
-        searchBox.submit();
-        Thread.sleep(5000);  // Let the user actually see something!
+        driver.get("https://membership.basketballengland.co.uk/NewSupporterAccount");
+        Thread.sleep(5000);
         driver.quit();
     }
 }
