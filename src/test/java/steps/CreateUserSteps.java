@@ -1,6 +1,5 @@
 package steps;
 
-import io.cucumber.java.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Assert;
